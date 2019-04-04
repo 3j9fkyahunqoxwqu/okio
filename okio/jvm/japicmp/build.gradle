@@ -28,6 +28,7 @@ task japicmp(type: JapicmpTask, dependsOn: 'jar') {
       'okio.RealBufferedSink', // Internal.
       'okio.RealBufferedSource', // Internal.
       'okio.SegmentedByteString', // Internal.
+      'okio.SegmentPool', // Internal.
       'okio.Util', // Internal.
   ]
   methodExcludes = [
